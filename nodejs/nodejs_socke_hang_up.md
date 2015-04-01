@@ -9,7 +9,7 @@ var req = http.get(url, function(res){...})
 
 绝望之际，换成post方式提交，然后幸福来了，不再报了。不过还没深究其原理。
 
-    `var options = {
+    var options = {
         host: host,
         port: 80,
         path: path,
@@ -24,6 +24,6 @@ var req = http.get(url, function(res){...})
 
     req.write(data);
     req.end();
-    `
+    
 
 
